@@ -38,6 +38,6 @@ server.on("request", (req, res) => {
   }
 });
 
-server.listen(8080, "localhost", () => {
-  console.log("server is running on http://localhost:8080");
+server.listen(8080, () => {
+  console.log("server is running on port 8080");
 });
